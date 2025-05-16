@@ -41,7 +41,7 @@
 
            EVALUATE CUSTOMER-ENTITY
                WHEN "A"
-                   MOVE 0.15 TO DISCOUNT-RATE
+                   MOVE 0.75 TO DISCOUNT-RATE
                WHEN "B"
                    MOVE 0.50 TO DISCOUNT-RATE
                WHEN "C"
@@ -49,8 +49,6 @@
                WHEN "D"
                    MOVE 0.15 TO DISCOUNT-RATE
                WHEN "E"
-                   MOVE 0.15 TO DISCOUNT-RATE
-               WHEN "F"
                    MOVE 0.05 TO DISCOUNT-RATE
                WHEN OTHER
                    MOVE 0 TO DISCOUNT-RATE
