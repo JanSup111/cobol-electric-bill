@@ -3,7 +3,6 @@
 
        ENVIRONMENT DIVISION.
        DATA DIVISION.
-       FILE SECTION.
        WORKING-STORAGE SECTION.
        01  CUSTOMER-NAME            PIC X(30).
        01  CUSTOMER-ENTITY          PIC X(30).
@@ -13,7 +12,6 @@
        01  TIER-LIMIT               PIC 9(06) VALUE 500.
        01  AMOUNT-DUE               PIC 9(06)V99 VALUE 0.
        01  TAX-RATE                 PIC 9(02)V99 VALUE 0.08.
-       01  ADJUST-RATE              PIC 9(02)V99 VALUE 0.75.
        01  TAX-AMOUNT               PIC 9(06)V99 VALUE 0.
        01  AMOUNT-ADJUSTED          PIC 9(06)V99 VALUE 0.
        01  LOYALTY-DISCOUNT         PIC 9(06)V99 VALUE 0.
