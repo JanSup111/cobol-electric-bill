@@ -37,10 +37,9 @@ To run the program:
 
 ## Customer Entity Types and Discounts
 
-- Entity A: 15% discount
+- Entity A: 75% discount
 - Entity B: 50% discount
 - Entity C: 25% discount
 - Entity D: 15% discount
-- Entity E: 15% discount
-- Entity F: 5% discount
+- Entity E: 5% discount
 - Other: No discount
